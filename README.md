@@ -42,7 +42,7 @@ rm test.txt
 ```
 If installed correctly, you should see output informing you that *betterm* was used.
 
-
+![Alt text](./demo.png?raw=true "Title")
 
 License
 ----
