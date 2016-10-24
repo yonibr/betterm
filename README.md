@@ -20,7 +20,7 @@ Download bettrm and note the location it was downloaded to. Open terminal and ru
 mkdir ~/shell_scripts
 mv /path/to/betterm ~/shell_scripts/betterm
 chmod 777  ~/shell_scripts/betterm
-echo 'alias rm="~/shell_scripts/betterm"' >> ~/.bash_profile
+echo >> ~/.bash_profile; echo 'alias rm="~/shell_scripts/betterm"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
