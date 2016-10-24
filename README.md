@@ -2,7 +2,7 @@
 
 Like *rm*, but better.
 
-Ever accidentally deleted something? Me too. Unfortunately, if one uses the *rm* it can be quite difficult to retrive lost data. *betterm* arose from the ashes that were once my home folder, in order to save others from similar disasters. 
+Ever accidentally deleted something? Me too. Unfortunately, if one uses the *rm* command it can be quite difficult to retrive lost data. *betterm* arose from the ashes that were once my home folder, in order to save others from similar disasters. 
 
 
 ### How it works
