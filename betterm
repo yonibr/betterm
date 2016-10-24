@@ -1,0 +1,14 @@
+ #!/bin/bash        
+ if [ -z "$1" ]; then 
+  echo usage: $0 directory
+  exit
+fi
+echo "Using betterm instead of rm. The file or directory will be moved to ~/.Trash as a CYA ¯\_(ツ)_/¯"
+echo "Deleted:"
+echo $1
+echo "Current working directory (only relevant if you provided a relative path):"
+echo $PWD
+SRCD=$1
+TGTD="/.Trash/"
+OF=$(basename $SRCD)
+/bin/mv $SRCD $HOME$TGTD$OF
