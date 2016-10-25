@@ -24,6 +24,13 @@ echo >> ~/.bash_profile; echo 'alias rm="~/shell_scripts/betterm"' >> ~/.bash_pr
 source ~/.bash_profile
 ```
 
+If you want *betterm* to work with sudo, run the following commands in terminal. **Note:** this will ensure that the next command after sudo is checked for an alias. It's possible that this is undesireable, so this step is up to you. The alternative is to use sudo and call *betterm* directly.
+
+```bash
+echo >> ~/.bash_profile; echo "alias sudo='sudo '" >> ~/.bash_profile
+source ~/.bash_profile
+```
+
 ### Usage
 
 If you followed the installation guide, you should be able to use it the following ways:
